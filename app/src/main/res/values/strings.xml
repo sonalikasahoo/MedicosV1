@@ -18,4 +18,6 @@
     <string name="enter_password">Enter Password</string>
     <string name="register">Register</string>
     <string name="already_registred_log_in">Already Registred? Log In</string>
+    <string name="enter_password_patient">enter_password_patient</string>
+    <string name="welcome_varsha">Welcome Varsha!</string>
 </resources>

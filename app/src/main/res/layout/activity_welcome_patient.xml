@@ -4,64 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sona.medicosv1.PatientSignup">
+    tools:context="com.example.sona.medicosv1.WelcomePatient">
 
-    <EditText
-        android:id="@+id/etUsername"
+    <TextView
+        android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:width="250dp"
-        android:ems="10"
-        android:hint="@string/enter_your_email_id"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etPassword"
+        android:text="@string/welcome_varsha"
+        app:layout_constraintBottom_toTopOf="@+id/tvContinue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etPassword"
+    <TextView
+        android:id="@+id/tvContinue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="80dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:width="250dp"
-        android:ems="10"
-        android:hint="@string/enter_password_patient"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        android:text="Click next to continue"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/registerButton"
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="204dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:onClick="onClickRegister"
-        android:text="@string/register"
-        app:layout_constraintBottom_toTopOf="@+id/tvDirectLogInPatient"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/tvDirectLogInPatient"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="140dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="onClickLogInBack"
-        android:text="@string/already_registred_log_in"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

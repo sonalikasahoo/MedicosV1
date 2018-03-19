@@ -19,7 +19,8 @@
         <activity android:name=".PatientLogin" />
         <activity android:name=".HospitalLogin" />
         <activity android:name=".PatientSignup" />
-        <activity android:name=".HospitalSignup"></activity>
+        <activity android:name=".HospitalSignup" />
+        <activity android:name=".WelcomePatient"></activity>
     </application>
 
 </manifest>
